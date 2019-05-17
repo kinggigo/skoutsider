@@ -2,7 +2,7 @@
 import React, { Component } from 'react';
 
 
-class Main extends Component {
+class Lol extends Component {
     state = {
 
     };
@@ -14,7 +14,7 @@ class Main extends Component {
                 <a href={"/Lol"}>2. LOL</a>
                 <a href={"/Game"}>3. Game</a>
 
-                메인
+                LOL이다
             </div>
 
         )
@@ -22,4 +22,4 @@ class Main extends Component {
 
 }
 
-export default Main
+export default Lol
