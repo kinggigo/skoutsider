@@ -1,6 +1,5 @@
 // base
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 
 // components
 // import { Layout, Search, Button } from '../../components';

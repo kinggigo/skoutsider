@@ -1,5 +1,6 @@
 // base
 import React, { Component } from 'react';
+import {Layout} from "../../components";
 
 
 class Game extends Component {
@@ -9,14 +10,12 @@ class Game extends Component {
 
     render() {
         return(
-            <div>
-                <div><a href={"/"}>1. 메인 </a></div>
-                <div><a href={"/Lol"}>2. LOL</a></div>
-                <div> <a href={"/Game"}>3. Game</a></div>
+            <Layout>
+                <div>
 
-                Game
-            </div>
-
+                    Game
+                </div>
+            </Layout>
         )
     }
 
