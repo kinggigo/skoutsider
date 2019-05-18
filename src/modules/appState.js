@@ -11,12 +11,12 @@ export const testnet = createAction(TESTNET);
 const initialState = {
     network: 'testnet',
 };
-
-export default handleActions({
-    [MAINNET]: (state, action) => produce(state, draft => {
-        draft.network = 'mainnet'
-    }),
-    [TESTNET]: (state, action) => produce(state, draft => {
-        draft.network = 'testnet'
-    }),
-}, initialState);
+//
+// export default handleActions({
+//     [MAINNET]: (state, action) => produce(state, draft => {
+//         draft.network = 'mainnet'
+//     }),
+//     [TESTNET]: (state, action) => produce(state, draft => {
+//         draft.network = 'testnet'
+//     }),
+// }, initialState);
