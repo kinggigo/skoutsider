@@ -14,7 +14,7 @@ const Header = (props) => {
                 <p> </p>
                 <nav>
                     <NavItem link="" title="메인" />
-                    <NavItem link="/Game" title="게임" />
+                    <NavItem link="/Game" title="위젯그리드 1" />
                     <NavItem link="/Lol" title="롤" />
                 </nav>
             </div>
