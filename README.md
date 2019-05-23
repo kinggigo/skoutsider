@@ -1,6 +1,6 @@
 
 
-#- 미리 봐야 할 것들 
+## 미리 봐야 할 것들 
 
 1. React - https://velopert.com/3612 꼭봐야할것  
 2. css(scss)
@@ -8,7 +8,7 @@
 등등 필요하면 github에서 보는걸로
 
 
-#- 미리 해야하는것 
+## 미리 해야하는것 
 
 - window
 
@@ -17,7 +17,7 @@
 3. cmd창에서 create-react-app 설치(cmd 창에서 yarn global add create-react-app 실행 - https://velopert.com/3621)
 
 
-#- 프로젝트 구성
+## 프로젝트 구성
 
 1. src/index.js가 기본적으로 보는 javascript 임 여기서 App폴더내에 index.js 를 보게 되어있음
 
@@ -26,3 +26,12 @@
 3. src/App/views - 각 화면들 
 
 4. src/App/views/index.js - route로 Url 구분 가능
+
+
+
+
+## 시작할때 해야하는것
+
+1. 프로잭트 루트에서 커맨드 창에 yarn 실행 - 다운로드됨
+2. yarn start - localhost:3000에서 웹 페이지 실행됨
+3. 확인 
