@@ -7,7 +7,7 @@ class Main extends Component {
 
     render() {
         return(
-            <Layout>
+            <Layout naeyoung="메인이다">
                 <div>
                     메인
                 </div>

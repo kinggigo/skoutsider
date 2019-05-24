@@ -66,7 +66,7 @@ class Game extends Component {
     render() {
         return (
 
-            <Layout>
+            <Layout naeyoung="위젯 기본적인것 크기조절, min, max">
                 <ReactGridLayout onLayoutChange={this.onLayoutChange} {...this.props}>
                     {this.generateDOM()}
                 </ReactGridLayout>

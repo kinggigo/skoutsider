@@ -7,7 +7,7 @@ import { Header} from '../index.js';
 const Layout = (props) => {
     return (
         <div className={"Layout"}>
-            <Header />
+            <Header naeyoung={props.naeyoung}/>
             {props.children}
         </div>
     )

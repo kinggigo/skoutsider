@@ -2,6 +2,7 @@
 import Main  from './Main';
 import Lol from './Lol';
 import Game from './Game';
+import Widjet from './Widjet';
 
 
 const routes = [
@@ -14,6 +15,9 @@ const routes = [
     },{
         path : '/Game',
         component: Game
+    },{
+        path : '/widjet',
+        component: Widjet
     }
     ]
 
