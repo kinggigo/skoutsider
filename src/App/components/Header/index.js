@@ -17,6 +17,7 @@ const Header = (props) => {
                     <NavItem link="/Game" title="위젯그리드 1" />
                     <NavItem link="/Lol" title="위젯그리드 2" />
                     <NavItem link="/widjet" title="위젯추가" />
+                    <NavItem link="/Tests" title="테스트용" />
                 </nav>
             </div>
         </header>

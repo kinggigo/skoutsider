@@ -3,8 +3,6 @@ import React, { Component } from 'react';
 import {Layout} from "../../components";
 import _ from "lodash";
 import RGL, { WidthProvider } from "react-grid-layout";
-
-// import GridLayout from "react-grid-layout";
 import '../../Style/example-styles.css';
 
 import '../../Style/styles.css';
