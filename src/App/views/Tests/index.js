@@ -5,7 +5,10 @@ import DataGrid, { Scrolling, Sorting, LoadPanel } from 'devextreme-react/data-g
 import React, { Component } from 'react';
 import {Layout} from "../../components";
 
-const dataSource = generateData(50);
+import 'devextreme/dist/css/dx.common.css';
+import 'devextreme/dist/css/dx.light.compact.css';
+
+const dataSource = generateData(2000);
 
 class Tests extends Component {
 
@@ -14,18 +17,23 @@ class Tests extends Component {
         return(
             <Layout naeyoung="무한 스크롤">
                 <div>
-                <DataGrid
-                    elementAttr ={{
-                        id: 'gridContainer'
-                    }}
-                    dataSource={dataSource}
-                    showBorders={false}
-                    customizeColumns={customizeColumns}
-                >
-                    <Sorting mode={'none'} />
-                    <Scrolling mode={'infinite'} showScrollbar={false} />
-                    <LoadPanel enabled={false} />
-                </DataGrid>
+                    <React.Fragment>
+                        <DataGrid
+                            elementAttr ={{
+                                id: 'gridContainer'
+                            }}
+                            dataSource={dataSource}
+                            // showBorders={false}
+                            // showColumnLines={true}
+                            // showRowLines={true}
+                            // showBorders={true}
+                            customizeColumns={customizeColumns}
+                        >
+                            <Sorting mode={'none'} />
+                            <Scrolling mode={'infinite'} showScrollbar={false} />
+                            <LoadPanel enabled={false} />
+                        </DataGrid>
+                    </React.Fragment>
                 </div>
             </Layout>
         )

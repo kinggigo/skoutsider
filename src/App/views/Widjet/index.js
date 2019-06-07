@@ -1,21 +1,19 @@
-// base
-import React, { Component } from 'react';
+
+import * as React from "react";
 import {Layout} from "../../components";
 
-// components
-// import { Layout, Search, Button } from '../../components';
 
+class Widjet extends React.Component{
 
-class Widjet extends Component {
     render() {
-        return(
-            <Layout naeyoung="TODO 할것">
+        return (
+            <Layout naeyoung="위젯 테스트중">
                 <div>
-                    위젯 추가할것
+                    위젯
                 </div>
             </Layout>
-        )
+        );
     }
-}
+};
 
 export default Widjet
